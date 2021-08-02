@@ -515,6 +515,9 @@
    * Circle component, lets you add and personalize circles on the map
    */
   var script$l = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LCircle",
     props: props$k,
     setup(props, context) {
@@ -559,6 +562,9 @@
    * Circle Marker component, lets you add and personalize circle markers on the map
    */
   var script$k = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LCircleMarker",
     props: props$l,
     setup(props, context) {
@@ -643,6 +649,9 @@
   };
 
   var script$j = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LControl",
     props: {
       ...props$j,
@@ -728,6 +737,9 @@
   };
 
   var script$i = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LControlAttribution",
     props: props$i,
     setup(props, context) {
@@ -808,6 +820,9 @@
   };
 
   var script$h = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LControlLayers",
     props: props$h,
     setup(props, context) {
@@ -880,6 +895,9 @@
   };
 
   var script$g = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LControlScale",
     props: props$g,
     setup(props, context) {
@@ -946,6 +964,9 @@
   };
 
   var script$f = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LControlZoom",
     props: props$f,
     setup(props, context) {
@@ -1029,6 +1050,9 @@
   };
 
   var script$e = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     props: props$d,
     setup(props, context) {
       const leafletRef = vue.ref({});
@@ -1104,6 +1128,9 @@
   };
 
   var script$d = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     props: props$c,
     setup(props, context) {
       const leafletRef = vue.ref({});
@@ -1195,6 +1222,9 @@
   };
 
   var script$c = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     props: {
       ...props$b,
       childRender: {
@@ -1587,6 +1617,9 @@
    * ImageOverlay component, render a plain image instead of a geospatial map.
    */
   var script$a = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LImageOverlay",
     props: props$9,
     setup(props, context) {
@@ -1626,6 +1659,9 @@
   script$a.__file = "src/components/LImageOverlay.vue";
 
   var script$9 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     props: props$e,
     setup(props, context) {
       const leafletRef = vue.ref({});
@@ -2129,6 +2165,9 @@
    * Marker component, lets you add and personalize markers on the map
    */
   var script$7 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LMarker",
     props: props$8,
     setup(props, context) {
@@ -2257,6 +2296,9 @@
    * Polygon component, lets you add and customize polygon regions on the map
    */
   var script$6 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LPolygon",
     props: props$6,
     setup(props, context) {
@@ -2302,6 +2344,9 @@
    * Polyline component, lets you add and personalize polylines on the map
    */
   var script$5 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LPolyline",
     props: props$7,
     setup(props, context) {
@@ -2393,6 +2438,9 @@
    * Display a popup on the map
    */
   var script$4 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LPopup",
     props: props$4,
     setup(props, context) {
@@ -2471,6 +2519,9 @@
    * Rectangle component, lets you add and customize rectangular regions on the map
    */
   var script$3 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LRectangle",
     props: props$3,
     setup(props, context) {
@@ -2556,6 +2607,9 @@
   };
 
   var script$2 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     props: props$2,
     setup(props, context) {
       const leafletRef = vue.ref({});
@@ -2611,6 +2665,9 @@
    * Display a tooltip on the map
    */
   var script$1 = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     name: "LTooltip",
     props: props$1,
     setup(props, context) {
@@ -2705,6 +2762,9 @@
   };
 
   var script = {
+    compatConfig: {
+      RENDER_FUNCTION: false,
+    },
     props,
     setup(props, context) {
       const leafletRef = vue.ref({});
