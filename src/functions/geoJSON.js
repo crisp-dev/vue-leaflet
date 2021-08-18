@@ -9,6 +9,16 @@ export const props = {
     type: [Object, Array],
     default: () => ({}),
   },
+  options: {
+    type: Object,
+    custom: true,
+    default: () => ({}),
+  },
+  optionsStyle: {
+    type: [Object, Function],
+    custom: true,
+    default: null,
+  },
 };
 
 export const setup = (props, leafletRef) => {
@@ -18,6 +28,7 @@ export const setup = (props, leafletRef) => {
   );
 
   const options = {
+    style: props.optionsStyle,
     ...layerOptions,
     ...props,
   };
