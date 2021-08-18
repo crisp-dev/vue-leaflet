@@ -1117,6 +1117,16 @@ const props$c = {
     type: [Object, Array],
     default: () => ({}),
   },
+  options: {
+    type: Object,
+    custom: true,
+    default: () => ({}),
+  },
+  optionsStyle: {
+    type: [Object, Function],
+    custom: true,
+    default: null,
+  },
 };
 
 const setup$b = (props, leafletRef) => {
@@ -1126,6 +1136,7 @@ const setup$b = (props, leafletRef) => {
   );
 
   const options = {
+    style: props.optionsStyle,
     ...layerOptions,
     ...props,
   };
